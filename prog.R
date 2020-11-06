@@ -1,6 +1,6 @@
 ###############################################################
 #############   PROGRAM FOR THE ESTIMATION OF  ################
-######    IMPACTS IN NONLINEAR SAR MODELS    #################
+######    IMPACTS IN NONLINEAR SAR MODELS    ##################
 ###############################################################
 
 
@@ -175,8 +175,6 @@ plot(MCMC.FINAL[,8],  type="l", col = "darkblue", xlab = "ITERATIONS", ylab = "I
 plot(MCMC.FINAL[,9],  type="l", col = "darkblue",  xlab = "ITERATIONS", ylab = "SIGMA_SQUARE")
 
 plot(MCMC.FINAL[,10],  type="l", col = "darkblue",  xlab = "ITERATIONS", ylab = "RHO")
-
-
 dev.off()
 
 
